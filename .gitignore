@@ -6,3 +6,4 @@ src/
 package-lock.json
 package.json
 update.js
+gitHubToken.txt
