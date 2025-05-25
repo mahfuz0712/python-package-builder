@@ -1,0 +1,8 @@
+dirStructure/
+dist/
+node_modules/
+setup/
+src/
+package-lock.json
+package.json
+update.json
