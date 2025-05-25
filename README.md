@@ -22,7 +22,7 @@
 
 ## Installation
 
-#### Go to latest releases and download the latest version of the CLI tool from the [releases page](https://github.com/mahfuz0712/python-package-builder). after downloading and instaling run the following command in the terminal:
+#### Go to latest releases and download the latest version of the CLI tool from the [releases page](https://github.com/mahfuz0712/python-package-builder/releases/). after downloading and instaling run the following command in the terminal:
 ```sh
 ppb --version
 ```
@@ -95,6 +95,8 @@ A typical project initialized by ppb will include:
 ppb init mylib
 cd mylib
 ppb update-package
+ppb run build
+ppb run publish
 ```
 
 ---

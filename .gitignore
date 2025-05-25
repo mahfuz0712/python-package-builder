@@ -5,4 +5,4 @@ setup/
 src/
 package-lock.json
 package.json
-update.json
+update.js
