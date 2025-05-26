@@ -1,11 +1,11 @@
-# Python Package Builder (ppb)
+# Introduction
+## Python Package Builder (ppb)
 
 [![Python Package Builder Logo](images/logo.png)]
 
 **Python Package Builder (ppb)** is a CLI tool designed to streamline the process of initializing, building, and managing Python package projects. It helps you quickly scaffold a new Python package, manage project metadata, and automate common packaging tasks.
 
 ---
-
 ## Features
 
 - **Project Initialization:**  
@@ -21,7 +21,6 @@
   Manage package name, version, author, license, repository, and more.
 
 ---
-
 ## Installation
 
 #### Go to latest releases and download the latest version of the CLI tool from the [releases page](https://github.com/mahfuz0712/python-package-builder/releases/). after downloading and instaling run the following command in the terminal:
@@ -29,7 +28,10 @@
 ppb --version
 ```
 * if it says `x.x.x`, then the installation was successful.
-## Usage
+## Development Usage
+### Pre-requisites:
+- Python 3.9 or higher
+- pip (Python package installer)
 
 ### Initialize a New Project
 
@@ -39,7 +41,6 @@ ppb init myLibrary
 ```
 * Replace `myLibrary` with your desired package name. This will create a new directory with the necessary files to start your Python package.
 
-* Creates a new directory `myLibrary` with all necessary files.
 
 #### Or initialize in the current directory:
 
@@ -47,11 +48,39 @@ ppb init myLibrary
 ppb init 
 ```
 
+#### Activate the virtual environment:
+```sh
+ppb activate
+```
+#### Deactivate the virtual environment:
+```sh
+ppb deactivate
+```
 
+#### Add dependencies to your project:
+```sh
+ppb add <package_name>
+```
+* Replace `<package_name>` with the name of the package you want to add as a dependency.
+#### Remove dependencies from your project:
+```sh
+ppb remove <package_name>
+```
+* Replace `<package_name>` with the name of the package you want to remove from your dependencies.
 
+#### See all dependencies in your project:
+```sh
+ppb show
+```
+* This will list all the dependencies currently in your project.
+
+#### See a particular dependency:
+```sh
+ppb show <package_name>
+```
+---
+## Productuon Usage
 ### Update Package Version
-
-
 ```sh
 ppb update
 ```
@@ -59,13 +88,12 @@ ppb update
 ```sh
 ppb run build
 ```
-
 ### Publish the Package
 
 ```sh
 ppb run publish
 ```
-
+* This command will publish your package to PyPI (Python Package Index) using the credentials stored in your `.pypytoken` file.
 
 ---
 
@@ -89,7 +117,7 @@ A typical project initialized by ppb will include:
 
 ## Contributing
 
-Contributions are welcome! Please open issues or submit pull requests for improvements and bug fixes.
+Contributions are welcome! Please open issues provide feedbacks for improvements and bug fixes.
 
 ---
 
