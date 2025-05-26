@@ -6,6 +6,6 @@ setup/
 src/
 package-lock.json
 package.json
-update.js
+update.py
 gitHubToken.txt
 ppb.spec
