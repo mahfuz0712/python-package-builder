@@ -123,4 +123,4 @@ Contributions are welcome! Please open issues provide feedbacks for improvements
 
 ## License
 
-This project is licensed under the MIT License.
+License: This project is proprietary software. Use is subject to the [Mahfuz Proprietary Software License Agreement](LICENSE). Commercial use is strictly prohibited without a paid license.
