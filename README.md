@@ -12,7 +12,7 @@
   Quickly scaffold a new Python package project with sensible defaults or interactive prompts.
 
 - **Version Management:**  
-  Easily bump the version in your project metadata and keep it in sync across `project.json` and `setup.py`
+  Easily bump the version in your project metadata and keep it in sync across `pyproject.toml` and `setup.py`
 
 - **Build & Publish Commands:**  
   Predefined commands for building and publishing your package using standard Python tools.
