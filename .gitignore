@@ -1,11 +1,8 @@
+.venv-windows/
 build/
 dirStructure/
 dist/
-node_modules/
-setup/
 src/
-package-lock.json
-package.json
 update.py
 gitHubToken.txt
 ppb.spec
